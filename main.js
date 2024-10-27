@@ -46,6 +46,7 @@ function createTrackControls(numTracks) {
             <img src="images/solo_button_off.png" alt="Solo" class="track-button mute-button" onclick="toggleSolo(${i})" id="soloButton-${i}" style="cursor: pointer;">
             <img src="images/mute_button_off.png" alt="Mute" class="track-button mute-button" onclick="toggleMute(${i})" id="muteButton-${i}" style="cursor: pointer;">
             <img src="${initialLevelImage}" alt="Level" class="track-button level-button" onclick="switchTrackLevel(${i})" id="levelButton-${i}" style="cursor: pointer;">
+            <img src="images/arrow_icon.png" alt="Arrow" class="track-button arrow-button" id="arrowButton-${i}" style="cursor: pointer;">  
             </div>
           <div class="volume-control">
             <input type="range" min="0" max="100" value="100" id="volume-slider-${i}" onchange="setVolume(${i}, this.value)">

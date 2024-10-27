@@ -149,3 +149,11 @@ body, html {
     display: block;
     margin: 5px auto;
 }
+
+.arrow-button {
+    width: 20px;
+    height: auto;
+    margin-left: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
